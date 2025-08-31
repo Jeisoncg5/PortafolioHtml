@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(124, 124, 124);
+    background-color: #c8f4ff;
     overflow: hidden;
 }
 .TituloFuente{                       /* Esta la uso para los titulos con fuentes distintas */
@@ -12,12 +12,12 @@ p{                                  /* Esta la uso para los parrafos con fuentes
     line-height: 0.3;
 }
 .HojaPortafolio{                    /* Esta es la hoja del portafolio */
-    background-color: white;
+    background-color: rgb(252, 241, 205);
     width: 85%;
     height: 85%;
     position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 10%;
+    left: 7%;
     border-radius: 1%;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.267);
     border-color: rgb(0, 0, 0);
@@ -67,33 +67,41 @@ p{                                  /* Esta la uso para los parrafos con fuentes
 #Info-Personal{                       /* Estos son los cuadros donde ira la informacion*/
     position: absolute; top: 30%; left: 7%;
     font-size: 100%;
+    width: 25%;
 }
 #Info-Contact{
     position: absolute; top: 50%; left: 7%;
     font-size: 100%;
+    width: 25%;
 }
 #Info-Social{
     position: absolute; top: 75%; left: 7%;
     font-size: 100%;
+    width: 25%;
 }
 #Info-Academica{                      /* Estos son los cuadros donde ira la informacion del segundo Recuadro*/
     position: absolute; top: 3%; left: 36%;
     font-size: 100%;
+    width: 30%;
 }
 #Info-Proyectos{
     position: absolute; top: 30%; left: 36%;
     font-size: 70%;
     line-height: 0.1;
+    background-color: rgb(163, 163, 163);
 }
 #Info-ProyectosFutbol{
     position: absolute; top: 30%; left: 50%;
     font-size: 70%;
     line-height: 0.1;
+    background-color: rgb(163, 163, 163);
 }
 #Info-ProyectosMenus{
     position: absolute; top: 45%; left: 36%;
     font-size: 70%;
     line-height: 0.1;
+    background-color: rgb(163, 163, 163);
+    width: 25%;
 }
 
 
