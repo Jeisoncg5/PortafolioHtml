@@ -1,52 +1,107 @@
 body{
-    background-color: rgba(95, 94, 94, 0.219);
+    background-color: rgb(124, 124, 124);
     overflow: hidden;
 }
-
-.CircleBig{
-    background-color: gray;
-    width: 20%;
-    height: 38%;
-    border-radius: 50%;
+.TituloFuente{                       /* Esta la uso para los titulos con fuentes distintas */
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+}
+p{                                  /* Esta la uso para los parrafos con fuentes distintas */
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    line-height: 0.3;
+}
+.HojaPortafolio{                    /* Esta es la hoja del portafolio */
+    background-color: white;
+    width: 85%;
+    height: 85%;
     position: absolute;
     top: 5%;
     left: 5%;
-    text-align: center;
+    border-radius: 1%;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.267);
+    border-color: rgb(0, 0, 0);
+    border-width: 3px; 
+    border-style: solid;
 }
-.CircleSmall{
-    background-color: white;
-    width: 80%;
-    height: 80%;
+.CircleBig{                         /* Esta es el circulo grande decoracion de donde va la foto*/
+    background-color: rgb(43, 42, 42);
+    width: 15%;
+    height: 25%;
     border-radius: 50%;
     position: absolute;
-    top: 10%;
-    left: 10%;
-    overflow: hidden;
+    top: 5%;
+    left: 8.3%;
+    text-align: center;
 }
-.line1{
+.CircleSmall{                       /* Esta es el circulo pequeño donde va la foto*/
+    background-color: white;
+    width: 85%;
+    height: 85%;
+    border-radius: 50%;
+    position: absolute;
+    top: 6%;
+    left: 6%;
+    overflow: hidden;
+    border-color: rgb(9, 253, 253);
+    border-width: 3px; 
+    border-style: solid;
+}
+.line1{                            /* Estas son las lineas divisorias */
     background-color: rgb(0, 0, 0);
     width: 0.5%;
-    height: 105%;
+    height: 100%;
     position: absolute;
     left: 33%;
     top: 0%;
 }
-.line2{
+.line2{ 
     background-color: rgb(0, 0, 0);
     width: 0.5%;
-    height: 105%;
+    height: 100%;
     position: absolute;
     left: 67%;
     top: 0%;
 }
 
+#Info-Personal{                       /* Estos son los cuadros donde ira la informacion*/
+    position: absolute; top: 30%; left: 7%;
+    font-size: 100%;
+}
+#Info-Contact{
+    position: absolute; top: 50%; left: 7%;
+    font-size: 100%;
+}
+#Info-Social{
+    position: absolute; top: 75%; left: 7%;
+    font-size: 100%;
+}
+#Info-Academica{                      /* Estos son los cuadros donde ira la informacion del segundo Recuadro*/
+    position: absolute; top: 3%; left: 36%;
+    font-size: 100%;
+}
+#Info-Proyectos{
+    position: absolute; top: 30%; left: 36%;
+    font-size: 70%;
+    line-height: 0.1;
+}
+#Info-ProyectosFutbol{
+    position: absolute; top: 30%; left: 50%;
+    font-size: 70%;
+    line-height: 0.1;
+}
+#Info-ProyectosMenus{
+    position: absolute; top: 45%; left: 36%;
+    font-size: 70%;
+    line-height: 0.1;
+}
 
 
 
-.video{
+.video{                                /* Este es el cuadro donde va el video */
     background-color: rgb(0, 0, 0);
     width: 25%;
     height: 30%;
-    position: absolute; top: 70%; left: 71.5%;
+    position: absolute; top: 68%; left: 71.5%;
     
 }
