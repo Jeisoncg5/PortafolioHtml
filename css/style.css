@@ -1,5 +1,5 @@
 body{
-    background-color: #c8f4ff;
+    background-color: #343535;
     overflow: hidden;
 }
 .TituloFuente{                       /* Esta la uso para los titulos con fuentes distintas */
@@ -12,16 +12,16 @@ p{                                  /* Esta la uso para los parrafos con fuentes
     line-height: 0.3;
 }
 .HojaPortafolio{                    /* Esta es la hoja del portafolio */
-    background-color: rgb(252, 241, 205);
+    background-color: rgb(190, 179, 127);
     width: 85%;
     height: 85%;
     position: absolute;
-    top: 10%;
+    top: 7%;
     left: 7%;
     border-radius: 1%;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.267);
     border-color: rgb(0, 0, 0);
-    border-width: 3px; 
+    border-width: 5px; 
     border-style: solid;
 }
 .CircleBig{                         /* Esta es el circulo grande decoracion de donde va la foto*/
@@ -43,9 +43,12 @@ p{                                  /* Esta la uso para los parrafos con fuentes
     top: 6%;
     left: 6%;
     overflow: hidden;
-    border-color: rgb(9, 253, 253);
+    border-color: rgb(248, 72, 72);
     border-width: 3px; 
     border-style: solid;
+}
+.CircleSmall:hover {
+  border-color: #1e90ff; 
 }
 .line1{                            /* Estas son las lineas divisorias */
     background-color: rgb(0, 0, 0);
@@ -64,11 +67,14 @@ p{                                  /* Esta la uso para los parrafos con fuentes
     top: 0%;
 }
 
-#Info-Personal{                       /* Estos son los cuadros donde ira la informacion*/
+#Info-Personal{                       
     position: absolute; top: 30%; left: 7%;
     font-size: 100%;
     width: 25%;
 }
+
+
+
 #Info-Contact{
     position: absolute; top: 50%; left: 7%;
     font-size: 100%;
@@ -103,8 +109,21 @@ p{                                  /* Esta la uso para los parrafos con fuentes
     background-color: rgb(163, 163, 163);
     width: 25%;
 }
-
-
+#Info-Experiencia{
+    position: absolute; top: 65%; left: 36%;
+    font-size: 100%;
+    width: 30%;
+}
+#Info-Habilidades{                    /* Estos son los cuadros donde ira la informacion del tercer Recuadro*/
+    position: absolute; top: 3%; left: 70%;
+    font-size: 100%;
+    width: 30%;
+}
+#Info-Idiomas{
+    position: absolute; top: 35%; left: 70%;
+    font-size: 100%;
+    width: 30%;
+}
 
 .video{                                /* Este es el cuadro donde va el video */
     background-color: rgb(0, 0, 0);
